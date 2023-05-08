@@ -1,5 +1,10 @@
-#include <stdio.h>
+// add a and b 
+#include<stdio.h>
 int main()
 {
-    printf("every action has its opposite reaction \n            maro mujhe maaro");
+    int i;
+    for(i=1;i<=0;i=i+1)
+    {
+        printf("%d\n",i);
+    }
 }
