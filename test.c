@@ -1,10 +1,8 @@
-// add a and b 
-#include<stdio.h>
+#include <stdio.h>
 int main()
 {
-    int i;
-    for(i=1;i<=0;i=i+1)
-    {
-        printf("%d\n",i);
-    }
+for(int mohith=1;mohith>=1;mohith=mohith+1)
+{
+printf("%d \n",mohith);
+}
 }

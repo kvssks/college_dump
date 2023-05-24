@@ -1,0 +1,40 @@
+# for t in range(int(input())):
+#    i=int(input()).split()
+#    print(i)
+#     # if((i-j)>j):
+#     #     print("NO")
+#     # else:
+#     #      print("YES")  
+
+
+
+
+
+
+
+l = ["config","software","solutions"]
+for i in l:
+    print(i," : length : ",len(i))
+    for j in i:
+        print(j)   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

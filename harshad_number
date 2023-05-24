@@ -1,0 +1,10 @@
+i = int(input())
+n = i
+s=0
+while(n>0):
+    s+=n%10
+    n//=10
+if(i%s==0):
+    print("yes")
+else:
+    print("no")

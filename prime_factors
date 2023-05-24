@@ -1,0 +1,16 @@
+def pFact(n):
+    k = int(n**(1/2))
+    for i in range(1,k+1):
+        if(n%i==0 and primee(i)):
+            print(i)
+def primee(n):
+    c=0
+    for i in range(1,(n//2)+1):
+        if(n%i==0):
+            c+=1
+    if(c==1):
+        return True
+    else:
+        return False
+i = int(input())
+pFact(i)
